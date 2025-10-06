@@ -3,7 +3,7 @@ Single, multi, and mode-selector simulation test files
 
 
 ## multi folder:
-### `constant_leader.slx`: 
+### `constant_leader_sim.slx`: 
 We adjusted the a0, v0, and x0 constants for both leader and ego to test different scenarios (including leader stationary)
   
 Tests with this controller:
@@ -11,7 +11,7 @@ Tests with this controller:
 * Stand-Still Leader
 * No Leader
 
-### `oscillating_leader.slx`: 
+### `oscillating_leader_sim.slx`: 
 The leader's acceleration input is a sine wave, and we adjusted the amplication and frequency of this wave to test different leader behaviors
 
 Tests with this controller:
@@ -19,14 +19,14 @@ Tests with this controller:
 * Steep Leader Oscillations
   
 
-### `random_leader.slx`:
+### `random_leader_sim.slx`:
 We created random leader behavior by using a band-limited white noise block (with transfer function and saturation) to test how ego reacts
 
 Tests with this controller:
 * Random Leader Behavior
 
 
-### `switching_leader.slx`:
+### `switching_leader_sim.slx`:
 We added a switch and step to switch between having a leader and no leader (simulated with a very large space gap)
 
 Tests with this controller:
