@@ -24,3 +24,12 @@ We created random leader behavior by using a band-limited white noise block (wit
 
 Tests with this controller:
 * Random Leader Behavior
+
+
+### `switching_leader.slx`:
+We added a switch and step to switch between having a leader and no leader (simulated with a very large space gap)
+
+Tests with this controller:
+* Leader leaves during simulation
+* Leader enters during simulation
+
