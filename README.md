@@ -19,3 +19,8 @@ Tests with this controller:
 * Steep Leader Oscillations
   
 
+### `random_leader.slx`:
+We created random leader behavior by using a band-limited white noise block (with transfer function and saturation) to test how ego reacts
+
+Tests with this controller:
+* Random Leader Behavior
