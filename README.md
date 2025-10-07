@@ -1,7 +1,7 @@
 # taketwo_test_simulations
 Single, multi, and mode-selector simulation test files
 
-## single folder:
+# single folder:
 ### `single_sim.slx`:
 We adjusted values of x0, v0, and sn to test:
 * Stopped with No Leader
@@ -10,7 +10,7 @@ We adjusted values of x0, v0, and sn to test:
 * Small Space Gap
 * Larger Space Gap
 
-## multi folder:
+# multi folder:
 ### `constant_leader_sim.slx`: 
 We adjusted the a0, v0, and x0 constants for both leader and ego to test different scenarios (including leader stationary)
   
@@ -41,7 +41,7 @@ Tests with this controller:
 * Leader leaves during simulation
 * Leader enters during simulation
 
-## mode folder:
+# mode folder:
 
 ### `mode_sim.slx`:
 We created several different inputs with the same mode selector controller and tracked whether the mode updates correctly and timely.
