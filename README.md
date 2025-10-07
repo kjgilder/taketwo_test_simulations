@@ -43,5 +43,15 @@ Tests with this controller:
 
 ## mode folder:
 
+### `mode_sim.slx`:
+We created several different inputs with the same mode selector controller and tracked whether the mode updates correctly and timely.
+
+Tests:
+* Detecting Smooth Leader
+* Detecting Erratic Leader
+* Detecting Changing Behavior from *Same* Leader
+* Detecting Leader Entering
+* Detecting Leader Exiting
+* Detecting *Different* Leader
 
 
