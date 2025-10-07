@@ -11,6 +11,7 @@ We adjusted values of x0, v0, and sn to test:
 * Larger Space Gap
 
 # multi folder:
+Note: we used the Test Manager in MatLab and a variable block to run these different scenarios on all modes
 ### `constant_leader_sim.slx`: 
 We adjusted the a0, v0, and x0 constants for both leader and ego to test different scenarios (including leader stationary)
   
